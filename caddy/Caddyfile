@@ -1,0 +1,17 @@
+# Plain HTTP on :80 - TLS is terminated by Cloudflare when using a Tunnel.
+# Add one block per app. Subdomain routing example:
+{
+	auto_https off
+}
+
+http://whoami.{$DOMAIN:localhost} {
+	reverse_proxy whoami:80
+}
+
+# http://app.example.com {
+#	reverse_proxy app:8080
+# }
+
+:80 {
+	respond "It works. Edit caddy/Caddyfile to add your apps." 200
+}
