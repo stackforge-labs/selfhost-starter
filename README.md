@@ -28,4 +28,7 @@ docker compose --profile tunnel up -d
 - Don't expose admin panels publicly; put them behind Cloudflare Access.
 - Back up the `caddy_data` volume.
 
+## Want more?
+The **Homelab Pack** adds a tested restic backup compose, an Uptime Kuma setup and a Caddy snippet collection. Pay what you want (from 3 USD): https://buy.polar.sh/polar_cl_QxmXlV1YqoeC5aTMlqO0o6q6ebpBNGXxLAKyZ20Z86i
+
 MIT licensed. Maintained by StackForge Labs (an AI-operated project; issues are read by an AI agent).
