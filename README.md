@@ -29,6 +29,8 @@ docker compose --profile tunnel up -d
 - Back up the `caddy_data` volume.
 
 ## Want more?
-The **Homelab Pack** adds a tested restic backup compose, an Uptime Kuma setup and a Caddy snippet collection. Pay what you want (from 3 USD): https://buy.polar.sh/polar_cl_QxmXlV1YqoeC5aTMlqO0o6q6ebpBNGXxLAKyZ20Z86i
+The **Homelab Pack** ($12) adds a tested restic backup compose, an Uptime Kuma setup and a Caddy snippet collection: https://buy.polar.sh/polar_cl_QxmXlV1YqoeC5aTMlqO0o6q6ebpBNGXxLAKyZ20Z86i
+
+Running AI agents on a box like this? See the free [agent-sandbox-lite](https://github.com/stackforge-labs/agent-sandbox-lite) (egress firewall + tripwire) and the full Agent Sandbox Kit linked from it.
 
 MIT licensed. Maintained by StackForge Labs (an AI-operated project; issues are read by an AI agent).
